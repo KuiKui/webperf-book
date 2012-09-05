@@ -27,7 +27,7 @@ fois de cette même ressource, il peut la prendre dans cet espace
 temporaire rapide, sans avoir à la re-télécharger et à subir les délais
 dus au réseau.
 
-![Système de cache HTTP local](img/chap03-systeme-de-cache-http-local.png)
+![Système de cache HTTP local](img/chap03-systeme-de-cache-http-local.png?raw=1)
 
 
 Importance du cache
@@ -47,7 +47,7 @@ Vérifiez combien vous coûtent vos serveurs et votre bande passante.
 Imaginez diviser par 40 le nombre de hits ou par 5 votre bande passante.
 L'investissement est très vite rentable. 
 
-![Téléchargements en premier et second accès sur Amazon.fr](img/chap03-telechargements-en-premier-et-second-acces-sur-amazon-fr.png)
+![Téléchargements en premier et second accès sur Amazon.fr](img/chap03-telechargements-en-premier-et-second-acces-sur-amazon-fr.png?raw=1)
 
 Sur l'échantillon de sites français testés on identifie le nombre de
 requêtes et le poids total du document. Pour chaque site le premier
@@ -77,7 +77,7 @@ sites de commerce, des sites orientés vidéo. Très peu de catégories sont
 exclues et même la page d'accueil de Google qui n'a pour ainsi dire
 aucun composant complexe arrive à diviser par 6 se bande passante.
 
-![Influence du cache sur le poids des pages et le nombre de requêtes HTTP](img/chap03-influence-du-cache-sur-le-poids-des-pages-et-le-nombre-de-requetes-http.png)
+![Influence du cache sur le poids des pages et le nombre de requêtes HTTP](img/chap03-influence-du-cache-sur-le-poids-des-pages-et-le-nombre-de-requetes-http.png?raw=1)
 
 Cache initialisé et cache vide, utilisateurs concernés
 ------------------------------------------------------
@@ -136,7 +136,7 @@ non négligeables. Si vous avez un doute, faites vos propres mesures. La
 réalisation est assez simple et Yahoo! explique comment faire dans son
 étude.
 
-[Proportion d'utilisateurs ou pages vues avec un cache vide](img/chap03-proportion-d-utilisateurs-ou-pages-vues-avec-un-cache-vide)[^17]
+[Proportion d'utilisateurs ou pages vues avec un cache vide](img/chap03-proportion-d-utilisateurs-ou-pages-vues-avec-un-cache-vide.gif?raw=1)[^17]
 
   [^16]: [Performance Research, Part 2: Browser Cache Usage – Exposed!, Yahoo!, janvier 2007](http://yuiblog.com/blog/2007/01/04/performance-research-part-2/)
   [^17]: © 2007- 2009  Reprinted with permission from Yahoo! Inc. YAHOO! and the YAHOO! logo are trademarks of Yahoo! Inc.
@@ -453,7 +453,7 @@ javascript, feuille de style, images, autres). Seul Cdiscount fait une
 différence en mettant des etag sur 60 images mais aucun des 25 fichiers
 javascript ou des 19 fichiers CSS.
 
-![Statistiques sur la présence d'Etag sur un échantillon de sites français](img/chap03-statistiques-sur-la-presence-d-etag-sur-un-echantillon-de-sites-francais.png)
+![Statistiques sur la présence d'Etag sur un échantillon de sites français](img/chap03-statistiques-sur-la-presence-d-etag-sur-un-echantillon-de-sites-francais.png?raw=1)
 
 Note : Sur la plupart des sites on peut voir qu'il y a toujours quelques
 contenus sans etags, et quelques contenus avec etag. Il s'agit le plus
@@ -669,7 +669,7 @@ de désactiver les caches non explicites s'il y a des paramètres
 ne pas utiliser au mieux certains caches mal configurés même si vous
 avez une expiration explicite. 
 
-![Les adresses des fichiers javascript contiennent des numéros de version](img/chap03-les-adresses-des-fichiers-javascript-contiennent-des-numeros-de-version.png)
+![Les adresses des fichiers javascript contiennent des numéros de version](img/chap03-les-adresses-des-fichiers-javascript-contiennent-des-numeros-de-version.png?raw=1)
 
 #### Forme et génération du jeton unique
 
@@ -1179,7 +1179,7 @@ pleine). Pour éviter ce comportement il faut envoyer les paramètres
 Pour Mozilla Firefox on peut constater ce fonctionnement avec Firebug en
 dépliant les détails d'une requête et en regardant la section « cache ».
 
-![Vérifier l'utilisation du cache par Mozilla Firefox](img/chap03-verifier-l-utilisation-du-cache-par-Mozilla-Firefox)
+![Vérifier l'utilisation du cache par Mozilla Firefox](img/chap03-verifier-l-utilisation-du-cache-par-Mozilla-Firefox.png?raw=1)
 
 Les serveurs proxy, souvent dans les très grosses entreprises, sont
 parfois configurés pour avoir eux aussi une politique de cache très
@@ -1202,7 +1202,7 @@ redirections pour lesquelles on distingue trois codes distincts : 301,
 faire une seconde requête HTTP vers le serveur web, avec une nouvelle
 adresse (l'adresse de redirection).
 
-![Flux HTTP d'une redirection 302](img/chap03-flux-http-d-une-redirection-302.png)
+![Flux HTTP d'une redirection 302](img/chap03-flux-http-d-une-redirection-302.png?raw=1)
 
 Le code 301 marque une redirection permanente. Les navigateurs et proxy
 sont encouragés à mettre en cache cette information. Les prochaines
