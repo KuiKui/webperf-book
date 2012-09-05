@@ -130,7 +130,7 @@ trois paliers de perception de la vitesse :
     réaliser des actions tierces et revient à la machine plus tard pour
     constater la progression.
 
-![Perception en fonction du temps de réponse](img/chap01-perception-en-fonction-du-temps-de-reponse.png)
+![Perception en fonction du temps de réponse](img/chap01-perception-en-fonction-du-temps-de-reponse.png?raw=1)
 
 Bien entendu ces paliers ne sont pas précis. Ils dépendent du contexte
 et de l'utilisateur, mais les ordres de grandeur sont valables pour
@@ -152,7 +152,7 @@ mettant en rapport le temps de chargement d'un jeu de pages référence
 avec le taux d'abandon. Ce dernier monte progressivement, quasiment
 proportionnellement au temps de chargement de 0 à 5 secondes.
 
-![Abandons en fonction du temps de chargement](img/chap01-abandons-en-fonction-du-temps-de-chargement.png)[^5]
+![Abandons en fonction du temps de chargement](img/chap01-abandons-en-fonction-du-temps-de-chargement.png?raw=1)[^5]
 
   [^5]: Illustration originale dans la conférence [« Varnish – A State of the Art High-Performance Reverse Proxy »](http://www.oscon.com/oscon2009/public/schedule/detail/10433) d'Artur Bergman donnée à l'OSCON le 23 juillet 2009
 
@@ -292,7 +292,7 @@ chargement est donc indéniablement perceptible.
 
   [^9]: Présentation Dave Artz, Director of optimization, AOL, aux [conférences Velocity 2009](http://en.oreilly.com/velocity2009/public/schedule/detail/7579)
 
-![Influence du temps de chargement sur le nombre de pages visitées pour AOL](img/chap01-influence-du-temps-de-chargement-sur-le-nombre-de-pages-visitees-pour-aol.png)
+![Influence du temps de chargement sur le nombre de pages visitées pour AOL](img/chap01-influence-du-temps-de-chargement-sur-le-nombre-de-pages-visitees-pour-aol.png?raw=1)
 
 Enfin, sur Bing, un ralentissement influe sur le visiteur dès 200 ms. À
 partir de 500 ms on voit déjà une baisse de plus de 1,2 % du revenu par
@@ -310,7 +310,7 @@ visiteurs à affiner et approfondir leur recherche.
 
   [^10]: Intervention Bing aux [conférences Velocity 2009](http://en.oreilly.com/velocity2009/public/schedule/detail/8523)
 
-![Évolution des performances suivant le ralentissement sur Bing](img/chap01-evolution-des-performances-suivant-le-ralentissement-sur-bing.png)
+![Évolution des performances suivant le ralentissement sur Bing](img/chap01-evolution-des-performances-suivant-le-ralentissement-sur-bing.png?raw=1)
 
 La baisse de revenus publicitaires est d'ailleurs corrélée par une étude
 de Jackob Nielsen en juin 2010 : après un grand délai d'attente
@@ -342,7 +342,7 @@ de 5 secondes. 
 Ici, dans une liste arbitraire de sites mesurés sur une connexion ADSL
 de très bonne qualité, presque la moitié sont au dessus des 4 secondes :
 
-![Performance de grosses audiences françaises et internationales](img/chap01-performance-de-grosses-audiences-francaises-et-internationales.gif)
+![Performance de grosses audiences françaises et internationales](img/chap01-performance-de-grosses-audiences-francaises-et-internationales.gif?raw=1)
 
 Si les débits et la puissance des machines ont explosé, les développeurs
 ont aussi fait moins attention au poids des pages, à leur contenu, à
@@ -359,7 +359,7 @@ continuer les courbes sur leur progression d'alors.
 
   [^11]: Étude avec sources sur websiteoptimizations.com, [« Average Web Page Size Triples Since 2003 » d’avril 2008](http://www.websiteoptimization.com/speed/tweak/average-web-page/)
 
-![Croissance du poids et du nombre d'objets d'une page web moyenne](img/chap01-croissance-du-poids-et-du-nombre-d-objets-d-une-page-web-moyenne.png)
+![Croissance du poids et du nombre d'objets d'une page web moyenne](img/chap01-croissance-du-poids-et-du-nombre-d-objets-d-une-page-web-moyenne.png?raw=1)
 
 Bref, on a un gros gâchis mais c’est aussi une chance : cela signifie
 que nous avons beaucoup de marge pour améliorer les choses et qu’il y a
@@ -391,7 +391,7 @@ applicatif, 80 % du temps est passé sur le navigateur ou sur le réseau.
 Pour les gros sites français le rapport est même plus souvent de 95 / 5
 que de 80 / 20.
 
-![Importance du fichier HTML sur le temps de chargement total de la page](img/chap01-importance-du-fichier-html-sur-le-temps-de-chargement-total-de-la-page.gif)
+![Importance du fichier HTML sur le temps de chargement total de la page](img/chap01-importance-du-fichier-html-sur-le-temps-de-chargement-total-de-la-page.gif?raw=1)
 
 Sur des mesures faites avec une douzaine de sites à fort trafic, on
 remarque bien que, le plus souvent, le chargement de la page HTML de
@@ -452,7 +452,7 @@ Mieux encore, cette expérience leur a permis de diviser par deux le
 nombre de serveurs nécessaires et a diminué les coûts de déploiement de
 plus de 90 %. On fait mieux pour moins cher.
 
-![Impact de l'amélioration des performances pour Shopzilla](img/chap01-impact-de-l-amelioration-des-performances-pour-shopzilla.gif)
+![Impact de l'amélioration des performances pour Shopzilla](img/chap01-impact-de-l-amelioration-des-performances-pour-shopzilla.gif?raw=1)
 
 Même chose chez Mozilla, leur équipe a aussi pu constater les effets
 positifs du travail sur les performances web. En réduisant de
@@ -462,7 +462,7 @@ taux de transformation[^13].
 
   [^13]: Publication de Blake Cutler sur le blog officiel Mozilla, [le 5 avril 2010](http://blog.mozilla.com/metrics/2010/04/05/firefox-page-load-speed-%E2%80%93-part-ii/)
 
-![Impact et détail de l'amélioration de performance pour Mozilla](img/chap01-impact-de-l-amelioration-des-performances-pour-mozilla.png)
+![Impact et détail de l'amélioration de performance pour Mozilla](img/chap01-impact-de-l-amelioration-des-performances-pour-mozilla.png?raw=1)
 
 Strangeloops Networks, une société qui travaille sur les performances, a
 aussi publié ses chiffres. Si, parce qu'ils sont intéressés aux
